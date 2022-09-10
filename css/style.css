@@ -295,3 +295,99 @@ font-style: Franklin Gothic Medium;
   position: absolute;
 
 }
+
+.topcont{
+  text-align: center;
+  background-color:  #13C5DD;
+  display: block;
+  margin-top: -22px;
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 100px;
+  padding-top: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  padding-bottom: 45px;
+}
+.doctor1{
+  text-align: center;
+
+}
+.doct1{
+  height: 300px;
+  width: 250px;
+}
+hr{
+  width: 10%;
+  border-style: dotted;
+  border-color: #13C5DD;
+  border-bottom: none;
+  border-width: 7px;
+}
+.bottomcontainer{
+/* margin-top: 0; */
+  height: 20px;
+  text-align: right;
+
+}
+button {
+  border: none;
+  width: 152px;
+  height: 40px;
+  margin: auto;
+  margin-top: 29px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: #ae3c33;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Muli-SemiBold";
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s; }
+  button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: ;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; }
+  button:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); }
+
+
+.t1{
+  text-decoration: underline;
+}
+.t1{
+  text-decoration: underline;
+}
+.t1{
+  text-decoration: underline;
+}
